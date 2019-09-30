@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<!-- saved from url=(0185)https://app.mogiv.com/give/?cid=daybreakprojects.isec&frameless=1&custom=1&includeLearnMore=0&includeGivUp=1&givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&alwaysShowGivUp -->
+<html lang="en" class="js no-touch postmessage history boxshadow textshadow cssanimations localstorage svg inlinesvg cookies csscalc placeholder flexbox no-flexboxtweener webkit no-ie ligatures jquery" style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+
+	<title>New Gift | Mogiv</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<link rel="icon" type="image/vnd.microsoft.icon" href="https://app.mogiv.com/favicon.ico">
+
+	<link rel="apple-touch-icon" href="https://app.mogiv.com/pins/apple-touch-icon-144x144.png" sizes="144x144">
+	<link rel="apple-touch-icon" href="https://app.mogiv.com/pins/apple-touch-icon-114x114.png" sizes="114x114">
+	<link rel="apple-touch-icon" href="https://app.mogiv.com/pins/apple-touch-icon-72x72.png" sizes="72x72">
+	<link rel="apple-touch-icon" href="https://app.mogiv.com/pins/apple-touch-icon.png">
+
+	<meta name="msapplication-TileImage" content="/pins/win8.png">
+	<meta name="msapplication-TileColor" content="#E9E9EA">
+
+	<link rel="stylesheet" href="./global.71.css">
+
+				<link rel="stylesheet" href="./give.css">
+					<link rel="stylesheet" href="./css.php">
+		<!-- Google Analytics -->
+<!-- End Google Analytics -->
+	<script src="./give.5.js"></script><script src="./cookies.74.js"></script><script src="./resizer.contentwindow.js"></script><script src="./give-custom.js"></script><script src="./custom.min.js"></script><link href="./custom.min.css" rel="stylesheet" type="text/css"><script>var mogiv = {base_uri: 'https://app.mogiv.com/'}; </script>
+
+	<script src="./head.js"></script>
+	<script async="" src="./body.71.js"></script>
+
+	<!--push additional scripts into this array-->
+	<script> var sub_scripts = []; </script>
+
+	<!--override this to disable the sticky header-->
+	<script> var sticky_header = true; </script>
+
+<style type="text/css"></style></head>
+
+
+<body class="frameless">
+
+<noscript>
+	<div class="notice notice-javascript">JavaScript is required to use all of the features of Mogiv. <a
+				href="http://www.enable-javascript.com/">Learn more</a>.
+	</div>
+</noscript>
+
+<div class="wrap"><div class="alerts"></div></div><article class="site_content" id="site_content" role="main">
+
+	<script>
+		var errorCode = '';
+		var pledgeCode = null;
+	</script>
+
+
+	<script>
+
+		// clear escaped ampersands and logout GET variables from URL
+		(function() {
+			if (window.location.href.indexOf('&#038;') > -1 || window.location.href.indexOf('&amp;') > -1 || window.location.href.indexOf('&clear&redirect=false') > -1) {
+				var href = window.location.href;
+				href = href.replace('&#038;', '&').replace('&amp;', '&').replace('&clear&redirect=false', '');
+				window.location.replace(href);
+			}
+		})();
+
+		// This figures out which page to load.
+		sub_scripts.push('/js/v2/sub/give.5.js');
+
+				// extra scripts for iframes (assumes iframes will always request frameless version)
+		sub_scripts.push('/js/v2/iframe/cookies.74.js');
+		sub_scripts.push('/js/v2/iframe/resizer.contentwindow.js');
+		
+	</script>
+
+
+	<div class="wrap give" id="give"><div class="gift--confirm" id="gift--confirm" style="display:none;"></div>
+<script>
+	if (pledgeCode != null) {
+		$('.give--gift').hide(); // Don't show the give form as we are going to skip it at the bottom of this file.
+	}
+</script>
+
+<form class="give--gift" action="https://app.mogiv.com/give/gift-submit.php" method="POST">
+	<input type="hidden" name="origin" id="origin" value="http://daybreakasia.org/isec/donations/">
+	<div class="form">
+				<div class="form--field give--gift--campaign">
+			<label>Campaign</label>
+
+							<input type="hidden" name="campaign" value="2635">
+				<span>Daybreak Asia - ISEC</span>
+				<small class="give--gift--link"><a href="https://app.mogiv.com/daybreakprojects/isec" target="_blank">Learn more about this campaign.</a></small>
+					</div>
+
+		
+			<div class="form--field give--gift--givUp">
+				<label>VERY IMPORTANT - Name of Teacher Here</label>
+				<input type="checkbox" name="givUp" checked="checked" style="display: none;">
+				<input type="text" class="give--gift--givUpText" name="givUpText" placeholder="" value="">
+			</div>
+				<div class="form--field give--gift--amount">
+			<label>Amount ($)</label>
+			<input type="text" pattern="^\d*(\.\d{0,2}$)?" value="10.00" name="amount" required="required">
+			<!--<span class="form--field--error">The minimum gift amount is $1.</span>-->
+		</div>
+
+		<div class="give--frequency">
+			<div class="form--field give--frequency--repeat">
+				<label>Repeat</label>
+				<select name="recurring-select">
+					<option value="none">None</option>
+					<option value="day">Every Day</option>
+					<option value="week">Every Week</option>
+					<option value="month">Every Month</option>
+					<option value="year">Every Year</option>
+					<option value="custom">Custom…</option>
+				</select>
+			</div>
+
+			<div class="form--field give--frequency--repeat--reveal give--frequency--repeat--reveal-start" style="display: none;">
+				<label>Start</label>
+				<input type="text" name="" min="2019-09-18" value="2019-09-18" id="dp1568826326521" class="hasDatepicker"><input name="start" id="" type="hidden" value="2019-09-18">
+			</div>
+
+			<div class="form--field give--frequency--repeat--reveal give--frequency--repeat--reveal-end" style="display: none;">
+				<label>End</label>
+				<select name="end-type">
+					<option value="never">Ongoing</option>
+					<option value="date">On date</option>
+					<option value="count">After</option>
+				</select>
+								<div class="form--field give--frequency--repeat--reveal-end--reveal give--frequency--repeat--reveal-end--reveal-date" style="display: none;">
+					<input type="text" name="" min="2019-09-19" value="2020-09-18" id="dp1568826326522" class="hasDatepicker"><input name="end-date" id="" type="hidden" value="2020-09-18">
+				</div>
+				<div class="form--field give--frequency--repeat--reveal-end--reveal give--frequency--repeat--reveal-end--reveal-after" style="display: none;">
+					<input type="text" name="end-count" value="5" pattern="\d*" required="">
+					<span>times</span>
+				</div>
+			</div>
+
+		</div>
+	</div><!--.form-->
+
+	<div id="recurring-period-wrap">
+	<div id="recurring-period-custom" class="form" style="display:none;">
+		<div><label class="period-frequency-label">Frequency:</label>
+		<select id="period-frequency" name="rpc-frequency">
+			<option value="day">Daily</option>
+			<option value="week">Weekly</option>
+			<option value="month">Monthly</option>
+			<option value="year">Yearly</option>
+		</select></div>
+		<div id="frequency-day-options" class="frequency-option frequency-day-options" style="display: block;">
+			<p>Every <input type="text" name="rpc-frequency-day" class="frequency-inline" pattern="\d*" value="1"> day(s)</p>
+		</div>
+		<div id="frequency-week-options" class="frequency-option frequency-week-options" style="display: none;">
+			<p>Every <input type="text" name="rpc-frequency-week" class="frequency-inline" pattern="\d*" value="1"> week(s) on:</p>
+			<div class="hide" style="display: none;">
+				<input type="checkbox" name="rpc-f-w[]" value="su" class="rpc-f-w">
+				<input type="checkbox" name="rpc-f-w[]" value="m" class="rpc-f-w">
+				<input type="checkbox" name="rpc-f-w[]" value="tu" class="rpc-f-w">
+				<input type="checkbox" name="rpc-f-w[]" value="w" class="rpc-f-w">
+				<input type="checkbox" name="rpc-f-w[]" value="th" class="rpc-f-w">
+				<input type="checkbox" name="rpc-f-w[]" value="f" class="rpc-f-w">
+				<input type="checkbox" name="rpc-f-w[]" value="sa" class="rpc-f-w">
+			</div>
+			<table id="f-w" class="recurring-grid recurring-grid-week">
+				<tbody><tr>
+					<td>S</td>
+					<td>M</td>
+					<td>T</td>
+					<td>W</td>
+					<td>T</td>
+					<td>F</td>
+					<td>S</td>
+				</tr>
+			</tbody></table>
+		</div>
+		<div id="frequency-month-options" class="frequency-option frequency-month-options" style="display: none;">
+			<p>Every <input type="text" name="rpc-frequency-month" class="frequency-inline" pattern="\d*" value="1"> month(s):</p>
+			<p><input id="frequency-month-each" type="radio" name="rpc-fm-type" value="each" checked="checked"> <label for="frequency-month-each">Each</label></p>
+			<div class="hide" style="display: none;">
+				<input type="checkbox" name="rpc-f-m[]" value="1" class="rpc-f-m">
+				<input type="checkbox" name="rpc-f-m[]" value="2" class="rpc-f-m">
+				<input type="checkbox" name="rpc-f-m[]" value="3" class="rpc-f-m">
+				<input type="checkbox" name="rpc-f-m[]" value="4" class="rpc-f-m">
+				<input type="checkbox" name="rpc-f-m[]" value="5" class="rpc-f-m">
+				<input type="checkbox" name="rpc-f-m[]" value="6" class="rpc-f-m">
+				<input type="checkbox" name="rpc-f-m[]" value="7" class="rpc-f-m">
+				<input type="checkbox" name="rpc-f-m[]" value="8" class="rpc-f-m">
+				<input type="checkbox" name="rpc-f-m[]" value="9" class="rpc-f-m">
+				<input type="checkbox" name="rpc-f-m[]" value="10" class="rpc-f-m">
+				<input type="checkbox" name="rpc-f-m[]" value="11" class="rpc-f-m">
+				<input type="checkbox" name="rpc-f-m[]" value="12" class="rpc-f-m">
+				<input type="checkbox" name="rpc-f-m[]" value="13" class="rpc-f-m">
+				<input type="checkbox" name="rpc-f-m[]" value="14" class="rpc-f-m">
+				<input type="checkbox" name="rpc-f-m[]" value="15" class="rpc-f-m">
+				<input type="checkbox" name="rpc-f-m[]" value="16" class="rpc-f-m">
+				<input type="checkbox" name="rpc-f-m[]" value="17" class="rpc-f-m">
+				<input type="checkbox" name="rpc-f-m[]" value="18" class="rpc-f-m">
+				<input type="checkbox" name="rpc-f-m[]" value="19" class="rpc-f-m">
+				<input type="checkbox" name="rpc-f-m[]" value="20" class="rpc-f-m">
+				<input type="checkbox" name="rpc-f-m[]" value="21" class="rpc-f-m">
+				<input type="checkbox" name="rpc-f-m[]" value="22" class="rpc-f-m">
+				<input type="checkbox" name="rpc-f-m[]" value="23" class="rpc-f-m">
+				<input type="checkbox" name="rpc-f-m[]" value="24" class="rpc-f-m">
+				<input type="checkbox" name="rpc-f-m[]" value="25" class="rpc-f-m">
+				<input type="checkbox" name="rpc-f-m[]" value="26" class="rpc-f-m">
+				<input type="checkbox" name="rpc-f-m[]" value="27" class="rpc-f-m">
+				<input type="checkbox" name="rpc-f-m[]" value="28" class="rpc-f-m">
+				<input type="checkbox" name="rpc-f-m[]" value="29" class="rpc-f-m">
+				<input type="checkbox" name="rpc-f-m[]" value="30" class="rpc-f-m">
+				<input type="checkbox" name="rpc-f-m[]" value="31" class="rpc-f-m">
+			</div>
+			<table id="f-m" class="recurring-grid">
+				<tbody><tr>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+					<td>7</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>9</td>
+					<td>10</td>
+					<td>11</td>
+					<td>12</td>
+					<td>13</td>
+					<td>14</td>
+				</tr>
+				<tr>
+					<td>15</td>
+					<td>16</td>
+					<td>17</td>
+					<td>18</td>
+					<td>19</td>
+					<td>20</td>
+					<td>21</td>
+				</tr>
+				<tr>
+					<td>22</td>
+					<td>23</td>
+					<td>24</td>
+					<td>25</td>
+					<td>26</td>
+					<td>27</td>
+					<td>28</td>
+				</tr>
+				<tr>
+					<td>29</td>
+					<td>30</td>
+					<td>31</td>
+					<td colspan="4">&nbsp;</td>
+				</tr>
+			</tbody></table>
+			<p class="select-label"><input id="frequency-month-on" type="radio" name="rpc-fm-type" value="onthe"> <label for="frequency-month-on">On the:</label></p>
+			<div id="frequency-month-on-options" class="disabled">
+				<select name="rpc-fm-on-time" disabled="disabled">
+					<option value="first">First</option>
+					<option value="second">Second</option>
+					<option value="third">Third</option>
+					<option value="fourth">Fourth</option>
+					<option value="last">Last</option>
+				</select>&nbsp;
+				<select name="rpc-fm-on-day" disabled="disabled">
+					<option value="su">Sunday</option>
+					<option value="m">Monday</option>
+					<option value="tu">Tuesday</option>
+					<option value="w">Wednesday</option>
+					<option value="th">Thursday</option>
+					<option value="f">Friday</option>
+					<option value="sa">Saturday</option>
+				</select>
+			</div>
+		</div>
+		<div id="frequency-year-options" class="frequency-option frequency-year-options" style="display: none;">
+			<p>Every <input type="text" name="rpc-frequency-year" class="frequency-inline" pattern="\d*" value="1"> year(s) in:</p>
+			<div class="hide" style="display: none;">
+				<input type="checkbox" name="rpc-f-y[]" value="1" class="rpc-f-y">
+				<input type="checkbox" name="rpc-f-y[]" value="2" class="rpc-f-y">
+				<input type="checkbox" name="rpc-f-y[]" value="3" class="rpc-f-y">
+				<input type="checkbox" name="rpc-f-y[]" value="4" class="rpc-f-y">
+				<input type="checkbox" name="rpc-f-y[]" value="5" class="rpc-f-y">
+				<input type="checkbox" name="rpc-f-y[]" value="6" class="rpc-f-y">
+				<input type="checkbox" name="rpc-f-y[]" value="7" class="rpc-f-y">
+				<input type="checkbox" name="rpc-f-y[]" value="8" class="rpc-f-y">
+				<input type="checkbox" name="rpc-f-y[]" value="9" class="rpc-f-y">
+				<input type="checkbox" name="rpc-f-y[]" value="10" class="rpc-f-y">
+				<input type="checkbox" name="rpc-f-y[]" value="11" class="rpc-f-y">
+				<input type="checkbox" name="rpc-f-y[]" value="12" class="rpc-f-y">
+			</div>
+			<table id="f-y" class="recurring-grid recurring-grid-year">
+				<tbody><tr>
+					<td>Jan</td>
+					<td>Feb</td>
+					<td>Mar</td>
+					<td>Apr</td>
+				</tr>
+				<tr>
+					<td>May</td>
+					<td>Jun</td>
+					<td>Jul</td>
+					<td>Aug</td>
+				</tr>
+				<tr>
+					<td>Sept</td>
+					<td>Oct</td>
+					<td>Nov</td>
+					<td>Dec</td>
+				</tr>
+			</tbody></table>
+			<p class="select-label"><input id="frequency-year-on" type="checkbox" name="rpc-fy-onthe" value="1"> <label for="frequency-year-on">On the:</label></p>
+			<div id="frequency-year-on-options" class="disabled">
+				<select name="rpc-fy-on-time" disabled="disabled">
+					<option value="first">First</option>
+					<option value="second">Second</option>
+					<option value="third">Third</option>
+					<option value="fourth">Fourth</option>
+					<option value="last">Last</option>
+				</select>&nbsp;
+				<select name="rpc-fy-on-day" disabled="disabled">
+					<option value="su">Sunday</option>
+					<option value="m">Monday</option>
+					<option value="tu">Tuesday</option>
+					<option value="w">Wednesday</option>
+					<option value="th">Thursday</option>
+					<option value="f">Friday</option>
+					<option value="sa">Saturday</option>
+				</select>
+			</div>
+		</div>
+		<div id="recurring-period-confirm">
+			<button id="period-ok" class="btn btn-reversed">OK</button>
+		</div>
+	</div>
+	<div id="recurring-period-description" class="hide" style="display: none;">
+		<label class="is-unlinked">Repeating:</label><br><span>…</span>
+	</div>
+</div>
+	<div class="form_errors give--gift--error" style="display: none;"></div>
+
+	<div class="give--gift--submission">
+						<input type="hidden" name="login" class="give--gift--login">
+				<div>
+					<button type="submit" id="btnNoAccount" class="give--gift--submit btn btn-blue" data-login="new">
+						I don't have an account					</button>
+				</div>
+									<div>
+					<button type="submit" id="btnAccount" class="give--gift--submit btn" data-login="existing">
+						I have an account					</button>
+				</div>
+										</div>
+</form>
+
+	<script>
+		function isValidAmount(_val) {
+			if (!isNaN(_val)) {
+				if (parseFloat(_val, 10) < 1) {
+					return false;
+				} else {
+					return true;
+				}
+			} else {
+				return false;
+			}
+		}
+
+		function frequencyRepeatChange() {
+			var repeatDropdown = $('.give--frequency--repeat select');
+
+			if (repeatDropdown.val() === 'none') {
+				repeatDropdown.parents('.give--frequency').find('.give--frequency--repeat--reveal').hide();
+				$('#recurring-period-custom').fadeOut(250);
+				$('#recurring-period-description').hide();
+			} else if (repeatDropdown.val() == 'custom') {
+				repeatDropdown.parents('.give--frequency').find('.give--frequency--repeat--reveal').show();
+				$('#recurring-period-custom').fadeIn(250);
+				$('#recurring-period-description').show();
+			} else {
+				repeatDropdown.parents('.give--frequency').find('.give--frequency--repeat--reveal').show();
+				$('#recurring-period-custom').fadeOut(250);
+				$('#recurring-period-description').hide();
+			}
+		}
+
+		if (repeat != '') {
+			repeat = repeat.toLowerCase();
+
+			if (repeat.match("day|week|month|year|custom")) {
+				$('.give--frequency--repeat select').val(repeat);
+				frequencyRepeatChange();
+			}
+		}
+
+		$('.give--frequency--repeat select').on('change', frequencyRepeatChange);
+
+		$('.give--frequency--repeat--reveal-end select').on('change', function() {
+			$(this).parents('.give--frequency').find('.give--frequency--repeat--reveal-end--reveal').hide();
+			if ($(this).val() === 'date') {
+				$(this).parents('.give--frequency').find('.give--frequency--repeat--reveal-end--reveal-date').show();
+			} else if ($(this).val() === 'count') {
+				$(this).parents('.give--frequency').find('.give--frequency--repeat--reveal-end--reveal-after').show();
+			}
+		});
+
+
+		$('input[name=givUp]').on('change', function() {
+			$('input[name=givUpText]').toggle();
+		});
+
+		$('.give--gift--amount input').on('keyup', function() {
+			var v = $(this).val();
+
+			if (v.indexOf('$') > -1) {
+				$(this).val(v.replace('$',''));
+			}
+
+			if (v.indexOf(',') > -1) {
+				$(this).val(v.replace(',',''));
+			}
+		});
+
+		$('.give--gift--campaign select').on('change', function() {
+			var id = $(this).val();
+			var opt = $(this).find('option[value="'+id+'"]');
+			var amt = Number(opt.data('amount'));
+			if (! isNaN(amt)) {
+				$('.give--gift--amount input').val(amt);
+			}
+		});
+
+		$('.give--gift--submit').on('click', function () {
+			var create = $(this).data('login');
+			$(this).parent().siblings('.give--gift--login').val(create);
+		});
+
+		$('.give--gift--amount input').on('blur', function() {
+			$(this).siblings('.form--field--error').remove();
+			var val = $(this).val();
+
+			if (! isValidAmount(val)) {
+				inlineError($(this).parent(), 'The minimum gift amount is $1.');
+			}
+		});
+
+		$('.give--gift--amount input').on('keypress', function(e) {
+		  if (e.which == '13') {
+		     e.preventDefault();
+		   }
+		});
+
+		$('.give--gift').on('submit', function() {
+			var _this = this;
+
+			if ($('.give--frequency--repeat select').val() === 'custom' && period === '') {
+				alert ('Complete the custom repetition form or select another repetition type.');
+				return false;
+			}
+
+			var amount = $('.give--gift--amount input').val();
+
+			if (! isValidAmount($('.give--gift--amount input').val())) {
+				alert('The minimum gift amount is $1.');
+				return false;
+			}
+
+			give.ajaxHelper(_this, function(data) {
+				if ($(_this).hasClass('is-editing') === false) { // anytime the 2nd argument of Give.addConfirmation is true, some logic like this needs to be used
+					$(_this).trigger('validated');
+				} else {
+					// edited submission
+					$(_this).removeClass('is-editing');
+					$('#give').removeClass('is-editing');
+					give.reFocus();
+					// these are unique to this instance
+					$('.give--identification--toggle').show();
+					// some sections of other modules need to be rebuilt based on the gift
+					if ($('.give--complete').length > 0) {
+						$.ajax('complete_first5.php', { dataType: 'html' }).done(function(data) {
+							$('.give--complete_first5').remove();
+							$('.give--complete').prepend(data);
+						});
+						// we need to force a registration if the user has switch to a recurring gift
+						$.ajax('register.php', { dataType: 'html' }).done(function(data) {
+							// clear out any other instances, this will be the primary one now
+							$('.give--register').remove();
+							$('.give--complete').before(data);
+							if (!registerRequired) {
+								$('.give--register').remove();
+							} else {
+								$('.give--complete input[type="submit"]').prop('disabled', true);
+								// this module requires a manual form submission binding
+								$('.give--register').addClass('is-before_completion').on('submit', function() {
+									registerGuest.submission();
+									return false;
+								});
+								$(registerGuest).off();
+								$(registerGuest).on('success', function() {
+									$('.give--complete input[type="submit"]').prop('disabled', false);
+									registerRequired = false;
+								});
+							}
+						});
+					}
+					if ($('.give--register').length > 0) {
+						$('.give--register').each(function() {
+							var _this = this;
+							$.ajax('register.php', { dataType: 'html', data: { 'process' : 1 } }).done(function(data) {
+								$(_this).after(data);
+								$(_this).remove();
+								registerGuest.init();
+							});
+						});
+					}
+				}
+
+				var conf = data.data;
+				conf.recurring = $('option[value="'+conf.recurring+'"]').first().text();
+				conf.campaign = $('option[value="'+conf.campaign+'"]').first().text();
+
+				if (conf.campaign === '') { // grabs campaign name if campaign <select> doesn't exist, this is kinda hacky
+					conf.campaign = $('.give--gift--campaign span').first().text();
+				}
+
+				conf.startDate = $('.give--frequency--repeat--reveal-start input').first().val();
+				conf.end = $('.give--frequency--repeat--reveal-end select').first().val();
+				conf.endDate = $('.give--frequency--repeat--reveal-end--reveal-date input').first().val();
+				conf.endAfter = $('.give--frequency--repeat--reveal-end--reveal-after input').first().val();
+
+				var formatDate = function(_str) {
+					var date = new Date(_str);
+					var day = date.getUTCDate();
+					if (day < 10) day = '0' + day;
+					return (date.getUTCMonth()+1)+'/'+day+'/'+date.getUTCFullYear();
+				}
+
+				if (Modernizr.inputtypes.date) {
+					conf.startDate = formatDate(conf.startDate);
+					conf.endDate = formatDate(conf.endDate);
+				}
+
+				$(_this).addClass('is-confirmed');
+
+				// prep this screen for editing
+				$(_this).find('.give--gift--submission').html('<input type="submit" class="btn" value="Next">');
+
+				if (typeof give === 'object') {
+					give.dialogHelper.campaign = conf.campaign;
+					give.dialogHelper.amount = conf.amount;
+					var confirmations = [];
+					confirmations.push({ label: 'Campaign', value: conf.campaign });
+					confirmations.push({ label: 'Amount', value: conf.amount });
+
+					// Pledges have no recurring function, so only add this if we're not redeeming a pledge.
+
+					if ((pledgeCode == null) && (conf.recurring.toLowerCase() !== 'none')) {
+						confirmations.push({ label: 'Recurring', value: conf.recurring });
+						confirmations.push({ label: 'Start Date', value: conf.startDate });
+
+						if (conf.end.toLowerCase() == 'date') {
+							confirmations.push({ label: 'End Date', value: conf.endDate });
+						} else if (conf.end.toLowerCase() == 'count') {
+							confirmations.push({ label: 'End After', value: conf.endAfter + ' times' });
+						}
+					}
+
+					give.addConfirmation(confirmations,_this);
+				}
+
+			});
+
+			return false;
+		});
+
+		Modernizr.load('/js/v2/sub/give-custom.js');
+		formFeatures('.give--gift');
+
+		function getParentUrl() {
+			var isInIframe = (parent !== window),
+				parentUrl = null;
+
+			if (isInIframe) {
+				parentUrl = document.referrer;
+			}
+
+			return parentUrl;
+		}
+
+		document.getElementById('origin').value = getParentUrl();
+		if (pledgeCode != null) $('.give--gift').submit();
+
+		if (0) {
+			$("#givingClicksSeal").show();
+		} else {
+			$("#mogivSeal").show();
+		}
+	</script>
+
+</div><!--.wrap-->
+
+	<div class="wrap give" id="give-visitedhack" style="display: none;">
+		<a href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#" onclick="window.open(&#39;/cookies/&#39;, &#39;_blank&#39;);" class="btn">Click to start</a>
+	</div>
+
+	<div class="wrap give" id="give-thirdpartycookies" style="display: none;">
+		<p>Your browser has third-party cookies disabled. You must visit Mogiv‘s website to give.</p>
+		<a href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#" onclick="window.open(&#39;/give/?cid=daybreakprojects.isec&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp&#39;, &#39;_blank&#39;);" class="btn">Go to Mogiv</a>
+	</div>
+
+	<div class="wrap give" id="give-nocookies" style="display: none;">
+					<p>Your browser has third-party cookies disabled. You should visit Mogiv‘s website and attempt your gift there.</p>
+			<a href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#" onclick="window.open(&#39;/give/?cid=daybreakprojects.isec&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp&#39;, &#39;_blank&#39;);" class="btn">Go to Mogiv</a>
+			</div>
+
+	<div class="wrap give" id="give-fixed" style="display: none;">
+		<p>For a better giving experience on your iPhone, please click the button below.</p>
+		<a href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#" onclick="window.open(&#39;/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp&#39;, &#39;_blank&#39;);" class="btn">Give Now</a>
+	</div>
+
+	<div>
+		<div id="mogivSeal" class="seal" style=""><img src="./seal.svg" class="svg fallback" height="125" width="125" alt="Certified Secure by Mogiv - PCI/DA/DSS Compliant"></div>
+		<div id="givingClicksSeal" class="seal give--partner_image" style="display: none;"><img src="./giving-clicks.png" class="svg fallback" width="320" height="50" alt="Giving Clicks"></div>
+	</div>
+
+	<script>
+		var giveProcess = true;
+		var registerRequired;
+
+		var repeat = '';
+
+		var giverLogged = false;
+		var iframeHost = 'http://daybreakasia.org';
+	</script>
+
+<!--.site_content--></article>
+
+
+<footer class="site_footer" role="contentinfo">	<small>
+		© 2010-2019 Mogiv, Inc.
+				<br><a href="https://app.mogiv.com/privacy/" target="_blank">Privacy &amp; Security</a> - <a href="https://app.mogiv.com/terms/" target="_blank">Terms of Use</a>	</small>
+</footer>
+
+<div class="login" id="login" style="display: none;">
+	<form class="form login--form" id="login--form" action="https://app.mogiv.com/login.php" method="post">
+		<div class="ss-icon ss-pika login--form--close" id="login--form--close">Close</div>
+		<h4>Login</h4>
+		<div class="form--field">
+			<input type="text" name="username" id="login--form--username" placeholder="Email or Username">
+		</div>
+		<div class="form--field">
+			<input type="password" name="password" id="login--form--password" placeholder="Password">
+		</div>
+		<input type="submit" value="Login" class="btn btn-short">
+		<a class="login--form--forget" href="https://app.mogiv.com/forgot-password">Forgot password?</a>
+	</form>
+</div>
+<div class="cover" id="cover" style="display: none;"></div>
+<div class="popover" id="popover" style="display: none;"><div class="popover--inner" id="popover--inner"></div></div>
+<div id="fb-root"></div>
+<!--[if lt IE 9]><div class="unsupported" id="unsupported"><div class="unsupported--close" onclick="var unsupported = document.getElementById('unsupported'); unsupported.parentNode.removeChild(unsupported);">&times;</div><div class="unsupported--notice"><h4>We're sorry, your browser is not supported.</h4><p>Mogiv requires Internet Explorer 9 or higher.</p><a href="http://browsehappy.com" class="btn">Upgrade Your Browser</a><a href="http://www.google.com/chromeframe/?redirect=true" class="btn btn-blue">Install Chrome Frame</a></div></div><![endif]-->
+<script> var post_pledge = ""; </script>
+
+
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		var google_conversion_id = 999837322;
+		var google_custom_params = window.google_tag_params;
+		var google_remarketing_only = true;
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion.js">
+	</script>
+	<noscript>
+		<div style="display:inline;">
+			<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/999837322/?value=0&amp;guid=ON&amp;script=0"/>
+		</div>
+	</noscript>
+
+
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"><div class="ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-all"><a class="ui-datepicker-prev ui-corner-all" data-handler="prev" data-event="click" title="Prev"><span class="ui-icon ui-icon-circle-triangle-w">Prev</span></a><a class="ui-datepicker-next ui-corner-all" data-handler="next" data-event="click" title="Next"><span class="ui-icon ui-icon-circle-triangle-e">Next</span></a><div class="ui-datepicker-title"><span class="ui-datepicker-month">September</span>&nbsp;<span class="ui-datepicker-year">2020</span></div></div><table class="ui-datepicker-calendar"><thead><tr><th scope="col" class="ui-datepicker-week-end"><span title="Sunday">Su</span></th><th scope="col"><span title="Monday">Mo</span></th><th scope="col"><span title="Tuesday">Tu</span></th><th scope="col"><span title="Wednesday">We</span></th><th scope="col"><span title="Thursday">Th</span></th><th scope="col"><span title="Friday">Fr</span></th><th scope="col" class="ui-datepicker-week-end"><span title="Saturday">Sa</span></th></tr></thead><tbody><tr><td class=" ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2020"><a class="ui-state-default" href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#">1</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2020"><a class="ui-state-default" href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#">2</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2020"><a class="ui-state-default" href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#">3</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2020"><a class="ui-state-default" href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#">4</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="8" data-year="2020"><a class="ui-state-default" href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#">5</a></td></tr><tr><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="8" data-year="2020"><a class="ui-state-default" href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#">6</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2020"><a class="ui-state-default" href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#">7</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2020"><a class="ui-state-default" href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#">8</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2020"><a class="ui-state-default" href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#">9</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2020"><a class="ui-state-default" href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#">10</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2020"><a class="ui-state-default" href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#">11</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="8" data-year="2020"><a class="ui-state-default" href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#">12</a></td></tr><tr><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="8" data-year="2020"><a class="ui-state-default" href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#">13</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2020"><a class="ui-state-default" href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#">14</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2020"><a class="ui-state-default" href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#">15</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2020"><a class="ui-state-default" href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#">16</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2020"><a class="ui-state-default" href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#">17</a></td><td class="  ui-datepicker-current-day" data-handler="selectDay" data-event="click" data-month="8" data-year="2020"><a class="ui-state-default ui-state-active" href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#">18</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="8" data-year="2020"><a class="ui-state-default" href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#">19</a></td></tr><tr><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="8" data-year="2020"><a class="ui-state-default" href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#">20</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2020"><a class="ui-state-default" href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#">21</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2020"><a class="ui-state-default" href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#">22</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2020"><a class="ui-state-default" href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#">23</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2020"><a class="ui-state-default" href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#">24</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2020"><a class="ui-state-default" href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#">25</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="8" data-year="2020"><a class="ui-state-default" href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#">26</a></td></tr><tr><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="8" data-year="2020"><a class="ui-state-default" href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#">27</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2020"><a class="ui-state-default" href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#">28</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2020"><a class="ui-state-default" href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#">29</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2020"><a class="ui-state-default" href="https://app.mogiv.com/give/?cid=daybreakprojects.isec&amp;frameless=1&amp;custom=1&amp;includeLearnMore=0&amp;includeGivUp=1&amp;givUpLabel=VERY%20IMPORTANT%20-%20Name%20of%20Teacher%20Here&amp;alwaysShowGivUp#">30</a></td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td></tr></tbody></table></div></body></html>
